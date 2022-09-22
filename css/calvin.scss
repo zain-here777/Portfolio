@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.bg-img::before{
+    content: "";
+    background-image: url('../images/bg.webp');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 880px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.btn-link{
+    border: 1px solid white;
+    padding: 10px 32px;
+    border-radius: 35px;
+}
+.talk-btn{
+    margin-right: 35px;
+}
+.logo{
+    margin-left: 50px;
+}
+.nav-spc{
+    padding: 15px 0px;
+}
+.nav-link:hover{
+    border-bottom: 3px solid white;
+}
+.bg-text{
+    margin-top: 195px;
+}
+.ban-text{
+    width: 45%;
+    margin-left: 60px;
+    margin-top: 34px;
+}
+.ban-head{
+    font-size: 60px;
+}
+.ban-img{
+    margin-left: 150px;
+}
+.ban-para{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 31px;
+}
+
+.ban-info{
+    padding: 80px 130px;
+}
+.ban-icon{
+    padding: 10px;
+    margin-left: 15px;
+    width: 55px;
+    height: 54px;
+    text-align: center;
+}
+.phn{
+    margin-top: 80px;
+    margin-left: 235px;
+}
+.serv-head{
+    margin-top: 120px;
+    margin-left: 90px;
+}
+.service{
+    width: 76%;
+    margin-top: 100px;
+}
+.serv-border:hover{
+    box-shadow: rgb(255 133 83 / 10%) 0px 15px 25px;
+    background-color: #fff;
+}
+.serv-link{
+    color: #FF8553;
+    border-bottom: 1px solid #FF8553;
+}
+.serv-border{
+    position: relative;
+}
+.serv-border::before{
+    content: "";
+    border-right: 1px solid #EFEFEF;
+    width: 20px;
+    height: 636px;
+    position: absolute;
+    left: 500px;
+}
+.serv-border::after{
+     content: "";
+     position: absolute;
+     border-bottom: 1px solid #EFEFEF;
+     width: 259%;
+    bottom: -25px;
+    left: -34px;
+    height: 20px;
+
+}

@@ -138,8 +138,20 @@ body {
   padding: 12px 40px;
   color: #FF8553; }
 
-.about-info {
+.about {
+  position: relative; }
+
+.about::before {
+  content: "";
+  position: absolute;
+  width: 72%;
+  height: 730px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
   background-color: #EFEFEF;
+  z-index: -1; }
+
+.about-info {
   padding-top: 116px;
   padding-left: 100px;
   width: 144%;
@@ -186,3 +198,87 @@ body {
 
 .num {
   color: #FF8553; }
+
+.slider {
+  margin-top: 50px;
+  width: 83% !important;
+  margin-left: 80px; }
+
+.owl-item {
+  padding: 0 !important; }
+
+.item {
+  width: 190px !important;
+  margin-right: 0 !important; }
+
+.client {
+  margin-top: 200px; }
+
+.client-para {
+  width: 82%;
+  text-align: center;
+  margin-left: 70px; }
+
+.client-info {
+  width: 65% !important;
+  background-color: #eea58814;
+  padding: 50px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px; }
+
+.carousel-control-prev {
+  position: absolute !important;
+  border: 1px solid #EFEFEF !important;
+  border-radius: 50% !important;
+  width: 35px !important;
+  height: 35px !important;
+  left: 220px !important;
+  top: 200px !important;
+  background: #EFEFEF !important;
+  padding: 5px !important; }
+
+.carousel-control-next {
+  position: absolute !important;
+  border: 1px solid #EFEFEF !important;
+  border-radius: 50% !important;
+  width: 35px !important;
+  height: 35px !important;
+  right: 220px !important;
+  top: 200px !important;
+  background: #EFEFEF !important;
+  padding: 5px !important; }
+
+.footer {
+  background-color: black;
+  padding: 80px 0px;
+  margin-top: 100px; }
+
+.fot-info {
+  width: 73%;
+  letter-spacing: 1px; }
+
+.fot-icon {
+  border: 1px solid transparent;
+  padding: 9px;
+  color: #FF8553;
+  border-radius: 5px;
+  margin: 0px 5px;
+  background-color: #935840a1; }
+
+.fot-icon:hover {
+  transform: rotateY(180deg);
+  transition: 0.4s; }
+
+.fot-sec2 {
+  margin-top: 60px !important; }
+
+.fot-btn, .fot-btn2 {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 12px 30px; }
+
+.fot-btn2 {
+  background-color: #FF8553;
+  padding: 12px 35px;
+  border: none; }

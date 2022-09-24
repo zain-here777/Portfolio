@@ -293,3 +293,82 @@ body{
     border: none;
     @extend .fot-btn
 }
+.news{
+    background-image: url('../images/1.webp');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    width: 88%;
+    height: 330px;
+    margin-left: 115px;
+    transition: 0.7s;
+}
+// .news:hover{
+//     transform: scale(1.1);
+    
+// }
+.news2{
+    background-image: url('../images/2.webp');
+    @extend .news
+}
+.news3{
+    background-image: url('../images/2.webp');
+    @extend .news
+}
+.serv-head1{
+    margin-top: 150px;
+    margin-left: 190px;
+    position: relative;
+}
+.serv-head1::before{
+    content: "";
+    position: absolute;
+    width: 85%;
+    top: -92px;
+    right: 0;
+    height: 400px;
+    background-color: #EFEFEF;
+    border-top-left-radius: 80px;
+    z-index: -1;
+}
+.img-btn{
+    background-color: #FF8553;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+.news1{
+    margin-left: 182px;
+}
+.news-head{
+    padding-top: 220px;
+    padding-left: 40px;
+}
+.sub-news{
+    padding-left: 55px;
+}
+.news:hover .sub-news{
+    text-decoration: underline !important;
+}
+.next-btn1{
+    position: absolute !important;
+    border: 1px solid transparent !important;
+    border-radius: 50% !important;
+    width: 35px !important;
+    height: 35px !important;
+    left: 1105px !important;
+    top: -65px !important;
+    background: #EFEFEF !important;
+    padding: 5px !important;
+}
+.next-btn{
+    position: absolute !important;
+    border: 1px solid transparent !important;
+    border-radius: 50% !important;
+    width: 35px !important;
+    height: 35px !important;
+    right: 158px !important;
+    top: -66px !important;
+    background: #EFEFEF !important;
+    padding: 5px !important;
+}

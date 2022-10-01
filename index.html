@@ -10,27 +10,29 @@
     <link rel="stylesheet" href="css/calvin.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-sm" id="go-top">
         <div class="container-fluid nav-spc">
             <a class="navbar-brand logo" href="#"><img src="./images/logo.webp" alt=""></a>
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="calvin.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="#">Work</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="#">Service</a></li>
                 <li class="nav-item dropdown"><a class="nav-link text-white" href="#" data-bs-toggle="dropdown">Blog</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item " href="#">Blog</a></li>
-                        <li><a class="dropdown-item" href="#">Blog deatils</a></li>
+                        <li><a class="dropdown-item " href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="blogdetail.html">Blog deatils</a></li>
                         <li><a class="dropdown-item" href="#">Elements</a></li>
                       </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
             </ul>
-            <div>
+            <div class="home-btn">
                 <button class="btn talk-btn"><a class="text-decoration-none text-white btn-link" href="#">Let's Talk</a></button>
             </div>
         </div>
@@ -276,83 +278,143 @@
     <div class="serv-head1">
         <h1>Latest News</h1>
     </div>
-    <div class="carousel slide mt-5" data-bs-ride="carousel" id="carouselExample">
-        <div class="carousel-inner">
-    <div class="container carousel-item active">
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="container mt-5">
         <div class="row">
-          <div class="col-md-6">
-           <div class="news news1">
-            <div class="d-flex news-head">
-            <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-            <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                   <img class="news-img" src="./images/1.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"><a class="text-decoration-none text-white" href="">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
             </div>
-            <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
-           </div>
-          </div>
-          <div class="col-md-6">
-            <div class="news">
-             <div class="d-flex news-head">
-             <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-             <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
-             </div>
-             <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                <img class="news-img" src="./images/1.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"> <a class="text-decoration-none text-white"href="">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
             </div>
-           </div>
-        </div>
-    </div>
-    <div class="container carousel-item">
-        <div class="row">
-          <div class="col-md-6">
-           <div class="news news1">
-            <div class="d-flex news-head">
-            <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-            <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
-            </div>
-            <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
-           </div>
-          </div>
-          <div class="col-md-6">
-            <div class="news2">
-             <div class="d-flex news-head">
-             <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-             <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
-             </div>
-             <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
-            </div>
-           </div>
-        </div>
-    </div>
-    <div class="container carousel-item">
-        <div class="row">
-          <div class="col-md-6">
-           <div class="news3 news1">
-            <div class="d-flex news-head">
-            <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-            <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
-            </div>
-            <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
-           </div>
-          </div>
-          <div class="col-md-6">
-            <div class="news">
-             <div class="d-flex news-head">
-             <button class="btn"><a class="text-decoration-none text-white img-btn" href="#">Tips</a></button>
-             <h6 class="text-white mt-2 fw-bold">12 March | by Alan</h6>
-             </div>
-             <h4 class="mt-2"><a class="text-decoration-none text-white sub-news" href="#">The Best SPA Salons For Your Relaxation</a></h4>
-            </div>
-           </div>
         </div>
     </div>
     </div>
-    <button class="carousel-control-prev next-btn1" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <div class="carousel-item">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                   <img class="news-img" src="./images/2.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"><a class="text-decoration-none text-white" href="">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                <img class="news-img" src="./images/1.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"><a class="text-decoration-none text-white" href="">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                   <img class="news-img" src="./images/1.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"> <a class="text-decoration-none text-white" href="">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main-news-img">
+                <div class="zoom-img">
+                <img class="news-img" src="./images/2.webp" alt="">
+                </div>
+                <div class="news-info">
+                    <div class="d-flex">
+                        <button class="btn"><a class="text-decoration-none text-white tips-btn" href="#">Tips</a></button>
+                        <div>
+                            <h5 class="text-white mt-2">12 March | by Alan</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white mt-2 news-link"> <a class="text-decoration-none text-white" href="#">The Best SPA Salons For Your Relaxations</a></h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev news-icon" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next next-btn" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    </button>
+    <button class="carousel-control-next news-icon2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
     </div>
     <div class="footer">
     <div class="container">
@@ -372,16 +434,32 @@
           </div>
           <div class="col-md-6 fot-sec2">
     
-           <button class="btn"><a class="text-decoration-none text-white fot-btn" href="#">Download CV</a></button>
+           <button class="btn fot-links"><a class="text-decoration-none text-white fot-btn" href="#">Download CV</a></button>
            <button class="btn"><a class="text-decoration-none text-white fot-btn2" href="#">Let's Talk</a></button>
-           
           </div>
-          
-        
+        </div>
+    </div>
+    <div class="container end">
+        <div class="row">
+         <div class="col-md-6">
+          <p class="text-white mt-2">Copyright ©2022 All rights reserved | This template is made with <i class="fa-sharp fa-solid fa-heart mt-1 heart"></i>    by Colorlib</p>
+         </div>
+         <div class="col-md-6">
+           <ul class="d-flex list-unstyled fot-links">
+            <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Work</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Service</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+           </ul>
+         </div>
         </div>
 
     </div>
     </div>
+<div class="up-icon">
+    <a class="text-white" href="#go-top"><i class="fa-solid fa-turn-up"></i></a>
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
